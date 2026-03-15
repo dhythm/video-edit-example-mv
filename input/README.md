@@ -48,9 +48,15 @@ large-v3 のモデルをダウンロードします。
 ## 3. Remotion プロジェクトのセットアップ
 
 以下を実行し、Remotion プロジェクトを作成してください。
-\`\`\`bash
-npx create-video@latest
-\`\`\`
+対話形式で質問が出ます:
+
+- プロジェクト名を聞かれたら「remotion-project」と入力
+- テンプレートを聞かれたら「Blank」を選択
+- パッケージマネージャーを聞かれたら「npm」を選択
+- その他の質問はデフォルト（Enter）で進めてください
+  \`\`\`bash
+  npx create-video@latest
+  \`\`\`
 
 作成後、ライブラリをインストールします。
 \`\`\`bash

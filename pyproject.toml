@@ -1,0 +1,14 @@
+[project]
+name = "video-edit-example-mv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "budoux>=0.8.0",
+    "openai-whisper>=20250625",
+    "silero-vad>=6.2.1",
+    "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+    "torchcodec>=0.10.0",
+]
