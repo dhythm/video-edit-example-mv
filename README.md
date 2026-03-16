@@ -323,7 +323,7 @@ cp temp/voice_audio.wav public/
 cp temp/subtitles.json public/
 \`\`\`
 
-subtitles.json に対して、下記の3点の修正を行う:
+コピーした public/subtitles.json に対して、下記の3点の修正を行う:
 - フォントサイズは1行、2行どちらも同じものに変更
 - 誤字の修正、専門用語を正しい表記への校正
 - 字幕テロップとして、区切り位置を適切な形に変更
