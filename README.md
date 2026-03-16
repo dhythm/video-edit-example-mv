@@ -323,8 +323,13 @@ cp temp/voice_audio.wav public/
 cp temp/subtitles.json public/
 \`\`\`
 
-コピーした public/subtitles.json に対して、下記の3点の修正を行う:
-- フォントサイズは1行、2行どちらも同じものに変更
+---
+
+## Step 9: 字幕テロップのブラッシュアップ
+
+public/subtitles.json に対して、下記の3点の修正を行う:
+
+- フォントサイズを統一（1行用、2行用どちらも同じフォントサイズに合わせる）
 - 誤字の修正、専門用語を正しい表記への校正
 - 字幕テロップとして、区切り位置を適切な形に変更
 
@@ -332,7 +337,7 @@ cp temp/subtitles.json public/
 
 ---
 
-## Step 9: Remotionレンダリング
+## Step 10: Remotionレンダリング
 
 \`\`\`bash
 npx remotion render MainVideo output/final.mp4 --timeout=120000
@@ -342,7 +347,7 @@ npx remotion render MainVideo output/final.mp4 --timeout=120000
 
 ---
 
-## Step 10: 完成ファイルを開く
+## Step 11: 完成ファイルを開く
 
 \`\`\`bash
 open output/final.mp4
